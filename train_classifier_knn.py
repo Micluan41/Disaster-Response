@@ -72,7 +72,8 @@ def build_model():
     """Build a Machine Learning model
     
     Use pipeline to vectorize the text messages and tranform to tf-idf
-    Apply multioutput classification using AdaBoostClassifier
+    Apply multioutput classification using KNeighborsClassifier
+    Apply a grid search to get the best parameters for the model
     
     Args:
         None
