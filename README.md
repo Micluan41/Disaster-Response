@@ -16,7 +16,7 @@ The project also included a web app where an emergency worker can input a new me
 ## **File Description**
 Data sets 'disaster_messages.csv' and 'disaster_categories.csv' are in the **Data** folder
 
-### **Python Script**
+#### **Python Script**
 'process_data.py' cleans the raw data and create a database
 'train_classifier.py' and 'train_classifier_knn.py' build machine learning pipeline using AdaBoost and KNN classifiers respectively.
 
