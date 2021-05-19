@@ -35,5 +35,6 @@ In the **webapp** folder, 'go.html' and 'master.html' formats the web app and 'r
 ## **Additional Note**
 'train_classifier.py' uses AdaBoostClassifier in the pipeline but does not have a GridSearch and runs fast. 
 'train_classifier_knn.py' has GridSearch and therefore could run for a long time. 
+In 'run.py', the code will load the pkl to fetch the model, the default is for 'train_classifier.py'. Change the model name in 'run.py' if you want to use the knn classifier in the web app.
 
 
