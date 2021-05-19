@@ -31,6 +31,9 @@ In the **webapp** folder, 'go.html' and 'master.html' formats the web app and 'r
 2. Run 'train_classifier.py' or 'train_classifier_cnn.py' to build the model and save as a pickle file
 3. Run 'run.py' to launch the web app. Then, open the [web address](https://view6914b2f4-3001.udacity-student-workspaces.com/) in a browser
 
+#### **Note**
+When running 'process_data.py' and 'train_classifier.py', follow the comments in the main function to provide the file path.
+
 
 ## **Additional Note**
 'train_classifier.py' uses AdaBoostClassifier in the pipeline but does not have a GridSearch and runs fast. 
