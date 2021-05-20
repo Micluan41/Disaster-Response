@@ -17,14 +17,26 @@ The project also included a web app where an emergency worker can input a new me
 
 
 ## **File Description**
-Data sets 'disaster_messages.csv' and 'disaster_categories.csv' are in the **Data** folder
 
-#### **Python Script**
-'process_data.py' cleans the raw data and create a database
-'train_classifier.py' and 'train_classifier_knn.py' build machine learning pipeline using AdaBoost and KNN classifiers respectively.
+**-app**
+| **- template**
+| |- master.html # main page of web app
+| |- go.html # classification result page of web app
+|- run.py # Flask file that runs app
 
-In the **webapp** folder, 'go.html' and 'master.html' formats the web app and 'run.py' creates the data visualization and the results of input messages from the model. 
+**-data**
+|- disaster_categories.csv # data to process
+|- disaster_messages.csv # data to process
+|- process_data.py
+|- InsertDatabaseName.db # database to save clean data to
 
+**-models**
+|- train_classifier.py # python script to build model with AdaBoostClassifier
+|- train_classifier_knn.py # python script to build model with KNeighborsClassifier
+|- classifier.pkl # saved model
+|- knn_classifier.pkl # saved model
+
+README.md
 
 ## **Code Execution**
 1. Run 'process_data.py' to clean the data and save to a database
