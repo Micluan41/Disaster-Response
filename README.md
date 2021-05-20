@@ -43,8 +43,8 @@ README.md
    - *python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db*
    
 2. Run 'train_classifier.py' or 'train_classifier_cnn.py' to build the model and save as a pickle file
-   - *python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl* or
-     *python models/train_classifier_knn.py data/DisasterResponse.db models/knn_classifier.pkl*
+   - *python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl* **or**
+   - *python models/train_classifier_knn.py data/DisasterResponse.db models/knn_classifier.pkl*
 
 3. Run 'run.py' in webapp folder to launch the web app. Then, open the [web address](https://view6914b2f4-3001.udacity-student-workspaces.com/) in a browser.
 
