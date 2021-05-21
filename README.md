@@ -4,6 +4,7 @@
 3. File Description
 4. Code Execution
 5. Additional Note
+6. Licensing, Authors, and Acknowledgements
 
 
 ## **Installation**
@@ -57,4 +58,7 @@ When running 'process_data.py' and 'train_classifier.py', follow the comments in
 'train_classifier_knn.py' has GridSearch and therefore could run for a long time. 
 In 'run.py', the code will load the pkl to fetch the model, the default is for 'train_classifier.py'. Change the model name in 'run.py' if you want to use the knn classifier in the web app.
 
+
+## **Licensing, Authors, and Acknowledgements**
+Thanks to Udacity for the starter code and FigureEight for providing the data set to be used by this project.
 
